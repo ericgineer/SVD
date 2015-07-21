@@ -49,7 +49,7 @@ function [U,S,V]=svd_jacobi(A)
 	  end
 	end
 	if steps >= max_iter
-	  fprintf('ERROr: svd_jacobi failed to converge!');
+	  fprintf('ERROR: svd_jacobi failed to converge!\n');
 	end
 
 	% the singular values are the norms of the columns of U
